@@ -9,10 +9,11 @@ class testController extends Controller
     public function index()
     {
         $filepath = database_path('data/shopify_products.json');
-        $total = collect(File::json($filepath)['products'])->filter(fn($product) => $product['product_type'] == 'Jacket' || $product['product_type'] == 'Coat')->map(fn($item) => $item['variants'])->flatten(1)->reduce(function ($total, $item) {
-            return $total += floatval($item['price']);
-        }, 0);
-        dd($total);
+        $total = collect(File::json($filepath)['products'])
+        ->whereIn('product_type',['Jacket','Coat'])
+        ->flatMap(fn($item) => $item['variants'])
+        ->sum('price')
+        ;
 
     }
 }
