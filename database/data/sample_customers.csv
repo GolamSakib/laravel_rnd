@@ -1,0 +1,21 @@
+email,name,age,address,phone,signup_date
+user1@example.com,User 1,28,"123 Maple St, Springfield",555-1000,2022-01-15
+user2@example.com,User 2,34,"456 Oak St, Metropolis",555-1001,2021-12-22
+user3@example.com,User 3,12,"789 Pine St, Gotham",555-1002,2023-03-10
+user4@example.com,User 4,29,"321 Elm St, Star City",555-1003,2020-08-25
+user5@example.com,User 5,40,"654 Birch St, Central City",555-1004,2019-11-05
+user6@example.com,User 6,35,"789 Cedar St, Smallville",555-1005,2022-04-16
+user7@example.com,User 7,30,"111 Ash St, Metropolis",555-1006,2021-07-18
+user8@example.com,User 8,27,"222 Cherry St, Gotham",555-1007,2023-01-09
+user9@example.com,User 9,14,"333 Walnut St, Star City",555-1008,2020-10-14
+user10@example.com,User 10,26,"444 Chestnut St, Springfield",555-1009,2019-06-27
+user11@example.com,User 11,31,"555 Willow St, Metropolis",555-1010,2022-02-23
+user12@example.com,User 12,33,"666 Fir St, Gotham",555-1011,2021-11-30
+user13@example.com,User 13,25,"777 Spruce St, Star City",555-1012,2023-04-21
+user14@example.com,User 14,38,"888 Redwood St, Central City",555-1013,2020-05-13
+user15@example.com,User 15,16,"999 Poplar St, Smallville",555-1014,2019-12-31
+user16@example.com,User 16,45,"101 Sycamore St, Metropolis",555-1015,2022-03-11
+user17@example.com,User 17,32,"202 Maple St, Gotham",555-1016,2021-08-15
+user18@example.com,User 18,11,"303 Oak St, Star City",555-1017,2023-05-06
+user19@example.com,User 19,39,"404 Pine St, Springfield",555-1018,2020-09-19
+user20@example.com,User 20,36,"505 Elm St, Central City",555-1019,2019-07-29
